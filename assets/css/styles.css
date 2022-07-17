@@ -51,7 +51,7 @@ ul li{
     height: 800px;
 }
 #data{
-    background-color:#04AA6D;
+    background-color:lime;
     opacity: 0.8;
     color:black;
     width: 50%;
@@ -73,6 +73,5 @@ table, td, th {
     font-weight: bolder;
   }
   td {
-    height: 50px;
     vertical-align: bottom;
   }
