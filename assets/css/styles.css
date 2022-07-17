@@ -42,8 +42,37 @@ ul li{
    /* margin-right: 60px; */
 }
 
-}
 
-.navbar div{
-    flex:33.33%
+/* //style the main page */
+.main{
+    background-image: url("../images/image6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+#data{
+    background-color:#04AA6D;
+    opacity: 0.8;
+    color:black;
+    width: 50%;
+    justify-content: space-evenly;
+
+}
+table, td, th {
+    border: 1px solid whitesmoke;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: #04AA6D;
+    opacity: 0.8;
+    color: white;
+    font-weight: bolder;
+  }
+  td {
+    height: 50px;
+    vertical-align: bottom;
 }
