@@ -1,8 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
-
+/* style the navigation bar */
 .navbar{
     display:flex;
     justify-content: space-around;
