@@ -56,7 +56,7 @@ ul li{
     color:black;
     width: 50%;
     justify-content: space-evenly;
-
+    
 }
 table, td, th {
     border: 1px solid whitesmoke;
@@ -75,4 +75,4 @@ table, td, th {
   td {
     height: 50px;
     vertical-align: bottom;
-}
+  }

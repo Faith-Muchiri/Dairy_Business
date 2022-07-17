@@ -136,3 +136,6 @@ data.addEventListener('submit',dailystats);
         let incomeOverYear=janIncome+febIncome+marchIncome+aprIncome+mayIncome+junIncome+julyIncome+augIncome+sepIncome+octIncome+novIncome+decIncome;
         document.getElementById('yearlyincome').innerHTML="Ksh "+incomeOverYear;
     
+    }
+    
+
