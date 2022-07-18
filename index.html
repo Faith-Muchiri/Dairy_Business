@@ -32,13 +32,13 @@
         <div class="container">
         <div class="dailyProduce">
             <h4>Daily milk production per <br>shed in litres</h4>
-            <form id="data" action="#">
+            <form id="data" name="shedsForm" action="#" onsubmit="return validateForm()" method="post">
                 <fieldset>
                     <legend>Daily Milk Production Per Shed</legend>
-                    <p><label>Shed A:<input type="number" id="shedA"></label></p>
-                    <p><label>Shed B:<input type="number" id="shedB"></label></p>
-                    <p><label>Shed C:<input type="number" id="shedC"></label></p>
-                    <p><label>Shed D:<input type="number" id="shedD"></label></p>
+                    <p><label>Shed A:<input type="number" id="shedA" required></label></p>
+                    <p><label>Shed B:<input type="number" id="shedB" required></label></p>
+                    <p><label>Shed C:<input type="number" id="shedC" required></label></p>
+                    <p><label>Shed D:<input type="number" id="shedD" required></label></p>
                     <p><input id="totals" type="submit" name="totals" value="Daily Totals"></p>
                 </fieldset>
             </form>
